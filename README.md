@@ -15,7 +15,6 @@ I've just wanted to taste the following technologies stack.
 ```sh
 go get github.com/gorilla/websocket
 go get github.com/labstack/echo
-go get github.com/labstack/echo/middleware
 ```
 
 # Run
@@ -28,6 +27,6 @@ navigate to `localhost:5000`
 
 # Notes
 
-I experimented various technique on the stack
+I experimented various techniques on the stack
 * Backend database is just a in-memory array store on the backend echo/golang server
 * Frontend components communicate with each-other via event bus
